@@ -93,7 +93,7 @@ In the `package.json`:
 ```json
 {
   "scripts": {
-    "dev": "ts-node-dev --respawn src/index.ts",
+    "dev": "tsx --watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "vitest"
