@@ -4,8 +4,15 @@
   "description": "A URL shortener API that helps shorten long URLs.",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["nodejs", "typescript", "api"],
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
   "author": "Victor Vasoncelos <victorolimpiovasconcelos.dev@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
 }
