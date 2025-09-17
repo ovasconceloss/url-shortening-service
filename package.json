@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A URL shortener API that helps shorten long URLs.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "tsx --watch src/index.ts"
+  },
   "keywords": [
     "nodejs",
     "typescript",
@@ -14,6 +16,7 @@
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
     "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
     "typescript": "^5.9.2"
   }
 }
