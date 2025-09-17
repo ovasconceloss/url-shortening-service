@@ -18,7 +18,6 @@
 * [Environment variables](#environment-variables)
 * [Useful scripts](#useful-scripts)
 * [Tests, lint, and formatting](#tests-lint-and-formatting)
-* [CI / CD](#ci--cd)
 * [Contribution](#contribution)
 * [License](#license)
 
@@ -78,7 +77,6 @@ pnpm run dev            # start project with ts-node
 
 ## Environment variables
 
-```
 # backend/.env.example
 DATABASE_URL=postgresql://user:pass@localhost:5432/webnote
 PORT=4000
