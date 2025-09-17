@@ -10,7 +10,8 @@ const startServer = () => {
       }
     });
   } catch (err: unknown) {
-
+    fastify.log.error(err, `Failed to start the server`);
+    process.exit(1);
   };
 };
 
