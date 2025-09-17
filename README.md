@@ -53,6 +53,7 @@ A production-ready RESTful API built with **Node.js** and **TypeScript**, design
 │  ├─ services/
 │  ├─ models/
 │  ├─ routes/
+│  ├─ errors/
 │  ├─ fastify.ts
 │  ├─ server.ts
 │  └─ index.ts
