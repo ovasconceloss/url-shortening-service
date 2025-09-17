@@ -1,4 +1,4 @@
-# Shortly — A URL shortening service API
+# URL shortener — A URL shortening service API
 
 > An API for converting long URLs into short ones.
 
