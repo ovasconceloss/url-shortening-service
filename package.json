@@ -13,8 +13,9 @@
   ],
   "author": "Victor Vasoncelos <victorolimpiovasconcelos.dev@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.16.1",
   "devDependencies": {
+    "dotenv": "^17.2.2",
     "ts-node": "^10.9.2",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
